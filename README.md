@@ -124,23 +124,35 @@
     </div>
   </section>
 
-  <section id="partners" class="container">
-    <h2>भागीदार माहिती</h2>
-    <div class="partner-row">
-      <div class="card">
-        <h5>श्री. सुरेश नरुटे</h5>
-        <p><strong>गाव:</strong> अंदोरी<br>मोबाइल: 7387057752</p>
-      </div>
-      <div class="card">
-        <h5>श्री. राहुल कोकरे</h5>
-        <p><strong>गाव:</strong> रुई<br>मोबाइल: 7709192226</p>
-      </div>
-      <div class="card">
-        <h5>श्री. प्रकाश नरुटे</h5>
-        <p><strong>गाव:</strong> अंदोरी<br>मोबाइल: 7709181501</p>
-      </div>
+ <section id="partners" class="container">
+  <h2>भागीदार माहिती</h2>
+  <div class="partner-row">
+    <div class="card">
+      <h5>श्री. सुरेश नरुटे</h5>
+      <p><strong>गाव:</strong> अंदोरी</p>
+      <p><strong>मोबाइल:</strong> 7387057752</p>
+      <a href="tel:7387057752" class="btn btn-sm btn-primary">📞 Call</a>
+      <a href="https://wa.me/917387057752" target="_blank" class="btn btn-sm btn-success ml-2">💬 WhatsApp</a>
     </div>
-  </section>
+
+    <div class="card">
+      <h5>श्री. राहुल कोकरे</h5>
+      <p><strong>गाव:</strong> रुई</p>
+      <p><strong>मोबाइल:</strong> 7709192226</p>
+      <a href="tel:7709192226" class="btn btn-sm btn-primary">📞 Call</a>
+      <a href="https://wa.me/917709192226" target="_blank" class="btn btn-sm btn-success ml-2">💬 WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <h5>श्री. प्रकाश नरुटे</h5>
+      <p><strong>गाव:</strong> अंदोरी</p>
+      <p><strong>मोबाइल:</strong> 7709181501</p>
+      <a href="tel:7709181501" class="btn btn-sm btn-primary">📞 Call</a>
+      <a href="https://wa.me/917709181501" target="_blank" class="btn btn-sm btn-success ml-2">💬 WhatsApp</a>
+    </div>
+  </div>
+</section>
+
 
   <section id="seeds" class="container bg-light">
     <h2>बियाणे वितरण फॉर्म</h2>
