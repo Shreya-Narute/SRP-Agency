@@ -132,15 +132,7 @@ body {
   z-index: 0;
 }
 
-/* Add dark overlay for better text visibility */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background: rgba(0,0,0,0.5); /* adjust transparency as needed */
-  z-index: -1;
-}
+
 
 
   </style>
