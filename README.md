@@ -132,6 +132,12 @@ body
   z-index: 0;
 }
 
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
 
 
 
@@ -189,14 +195,18 @@ body
 </section>
 
 
-  <section id="gallery" class="container">
-    <h2>गॅलरी</h2>
-    <div class="row gallery">
-      <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?farmer" alt="Farm"></div>
-      <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?market" alt="Market"></div>
-      <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?truck" alt="Transport"></div>
-    </div>
-  </section>
+<section id="gallery" class="container">
+  <h2>गॅलरी</h2>
+  <div class="row gallery">
+    <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?vegetables" alt="Vegetables"></div>
+    <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?farmer" alt="Farmer"></div>
+    <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?agriculture" alt="Agriculture"></div>
+    <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?harvest" alt="Harvest"></div>
+    <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?farm-truck" alt="Farm Truck"></div>
+    <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?seed" alt="Seeds"></div>
+  </div>
+</section>
+
 
  <section id="partners" class="container">
   <h2>भागीदार माहिती</h2>
