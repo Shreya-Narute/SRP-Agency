@@ -93,21 +93,22 @@
     <h2>भागीदार माहिती</h2>
     <div class="row">
       <div class="col-md-4">
+      <div class="col-md-4">
         <div class="card">
-          <h5>श्री. गजानन नरुटे</h5>
-          <p>संस्थापक व प्रमुख भागीदार</p>
+          <h5>श्री. सुरेश नरुटे</h5>
+          <p><strong>गाव:</strong> अंदोरी<br>मोबाइल: 7387057752</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
-          <h5>श्री. रामदास पाटील</h5>
-          <p>भागीदार - शेतकरी संबंध</p>
+          <h5>श्री. राहुल कोकरे</h5>
+          <p><strong>गाव:</strong> रुई<br>मोबाइल: 7709192226</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
-          <h5>श्री. वसंत गायकवाड</h5>
-          <p>भागीदार - वाहतूक व विक्री</p>
+          <h5>श्री. प्रकाश नरुटे</h5>
+          <p><strong>गाव:</strong> अंदोरी<br>मोबाइल: 7709181501</p>
         </div>
       </div>
     </div>
@@ -169,7 +170,7 @@
       .catch(err => alert("डेटा सबमिट करताना त्रुटी आली!"));
     });
 
-    fetch("https://script.google.com/macros/s/AKfycbyIJwwct0J8hNNyhyfyfaZGfsztpi5Czf_xK6NpHMRi3jeq7ioWvvgEHXhyAHA4icY/exec")
+    fetch("https://opensheet.elk.sh/1eNBlxdGZxX4ViZBGCplrXFYDNdETEp7ZgYBaNFjTzo8/Sheet1")
       .then(res => res.json())
       .then(data => {
         const table = document.querySelector("#sheetData tbody");
