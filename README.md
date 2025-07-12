@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>GreenRoots Agro - SRP Agency</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -114,13 +116,18 @@
 .partner-row .card .btn {
   margin-top: 10px;
 }
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+}
 
 
   </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">GreenRoots Agro</a>
+    <a class="navbar-brand" href="#"SRP Agency Andori</a>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item"><a class="nav-link" href="#about">आमच्याबद्दल</a></li>
       <li class="nav-item"><a class="nav-link" href="#services">सेवा</a></li>
@@ -131,7 +138,8 @@
   </nav>
 
   <header>
-    <h1>आपल्या शेतकऱ्यांचा विश्वास</h1>
+    <h1>SRP Agency Andori</h1>
+    <h2>पल्या शेतकऱ्यांचा विश्वास आणि गुणवत्ता</h2>
   </header>
 
   <section id="about" class="container">
@@ -216,7 +224,8 @@
   </section>
 
   <footer>
-    &copy; 2025 GreenRoots Agro. सर्व हक्क राखीव.
+   &copy; 2025 SRP Agency Andori. सर्व हक्क राखीव.
+
   </footer>
 
   <script>
@@ -244,7 +253,7 @@
       .catch(err => alert("डेटा सबमिट करताना त्रुटी आली!"));
     });
 
-    fetch("https://opensheet.elk.sh/1eNBlxdGZxX4ViZBGCplrXFYDNdETEp7ZgYBaNFjTzo8/Sheet1")
+    fetch("https://script.google.com/macros/s/AKfycbyIJwwct0J8hNNyhyfyfaZGfsztpi5Czf_xK6NpHMRi3jeq7ioWvvgEHXhyAHA4icY/exec")
       .then(res => res.json())
       .then(data => {
         const table = document.querySelector("#sheetData tbody");
