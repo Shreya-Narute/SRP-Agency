@@ -169,7 +169,7 @@
       .catch(err => alert("डेटा सबमिट करताना त्रुटी आली!"));
     });
 
-    fetch("https://opensheet.elk.sh/1eNBlxdGZxX4ViZBGCplrXFYDNdETEp7ZgYBaNFjTzo8/Sheet1")
+    fetch("https://script.google.com/macros/s/AKfycbyIJwwct0J8hNNyhyfyfaZGfsztpi5Czf_xK6NpHMRi3jeq7ioWvvgEHXhyAHA4icY/exec")
       .then(res => res.json())
       .then(data => {
         const table = document.querySelector("#sheetData tbody");
