@@ -127,7 +127,7 @@ h1 {
 </head>
 <body>
   <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#"SRP Agency Andori</a>
+    
     <ul class="navbar-nav ml-auto">
       <li class="nav-item"><a class="nav-link" href="#about">आमच्याबद्दल</a></li>
       <li class="nav-item"><a class="nav-link" href="#services">सेवा</a></li>
@@ -138,8 +138,9 @@ h1 {
   </nav>
 
   <header>
-    <h1>SRP Agency Andori</h1>
-    <h2>पल्या शेतकऱ्यांचा विश्वास आणि गुणवत्ता</h2>
+   <h1>SRP Agency Andori</h1>
+<p>आपल्या शेतकऱ्यांचा विश्वास आणि गुणवत्ता</p>
+
   </header>
 
   <section id="about" class="container">
