@@ -208,6 +208,7 @@ body
 </section>
 
 
+
  <section id="partners" class="container">
   <h2>भागीदार माहिती</h2>
   <div class="partner-row">
