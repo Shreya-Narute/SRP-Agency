@@ -44,8 +44,13 @@
       border: 1px solid #ccc;
       border-radius: 10px;
       padding: 15px;
-      margin-bottom: 20px;
+      margin: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .partner-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
   </style>
 </head>
@@ -91,25 +96,18 @@
 
   <section id="partners" class="container">
     <h2>भागीदार माहिती</h2>
-    <div class="row">
-      <div class="col-md-4">
-      <div class="col-md-4">
-        <div class="card">
-          <h5>श्री. सुरेश नरुटे</h5>
-          <p><strong>गाव:</strong> अंदोरी<br>मोबाइल: 7387057752</p>
-        </div>
+    <div class="partner-row">
+      <div class="card">
+        <h5>श्री. सुरेश नरुटे</h5>
+        <p><strong>गाव:</strong> अंदोरी<br>मोबाइल: 7387057752</p>
       </div>
-      <div class="col-md-4">
-        <div class="card">
-          <h5>श्री. राहुल कोकरे</h5>
-          <p><strong>गाव:</strong> रुई<br>मोबाइल: 7709192226</p>
-        </div>
+      <div class="card">
+        <h5>श्री. राहुल कोकरे</h5>
+        <p><strong>गाव:</strong> रुई<br>मोबाइल: 7709192226</p>
       </div>
-      <div class="col-md-4">
-        <div class="card">
-          <h5>श्री. प्रकाश नरुटे</h5>
-          <p><strong>गाव:</strong> अंदोरी<br>मोबाइल: 7709181501</p>
-        </div>
+      <div class="card">
+        <h5>श्री. प्रकाश नरुटे</h5>
+        <p><strong>गाव:</strong> अंदोरी<br>मोबाइल: 7709181501</p>
       </div>
     </div>
   </section>
@@ -190,3 +188,4 @@
   </script>
 </body>
 </html>
+
