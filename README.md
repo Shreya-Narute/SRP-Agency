@@ -121,6 +121,26 @@ h1 {
   font-size: 3rem;
   color: #ffffff;
 }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?farm,field,vegetables') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: white;
+  position: relative;
+  z-index: 0;
+}
+
+/* Add dark overlay for better text visibility */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.5); /* adjust transparency as needed */
+  z-index: -1;
+}
 
 
   </style>
