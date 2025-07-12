@@ -214,7 +214,8 @@ body
 <section id="gallery" class="container">
   <h2>गॅलरी</h2>
   <div class="row gallery">
-    <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?vegetables" alt="Vegetables"></div>
+    <div class="col-md-4"><img src="![WhatsApp Image 2025-07-12 at 15 52 57_ca6bc5c3](https://github.com/user-attachments/assets/054d08aa-9b2f-4894-9ca7-c110061b7b30)
+" alt="Vegetables"></div>
     <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?farmer" alt="Farmer"></div>
     <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?agriculture" alt="Agriculture"></div>
     <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?harvest" alt="Harvest"></div>
