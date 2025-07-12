@@ -52,6 +52,36 @@
       flex-wrap: wrap;
       justify-content: space-around;
     }
+    .partner-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.partner-row .card {
+  flex: 0 1 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+.partner-row .card:hover {
+  transform: translateY(-5px);
+  background-color: #f1fef1;
+}
+.partner-row .card h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2e7d32;
+}
+.partner-row .card p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
   </style>
 </head>
 <body>
