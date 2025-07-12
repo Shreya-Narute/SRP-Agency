@@ -138,6 +138,22 @@ body
   margin-bottom: 15px;
   border-radius: 10px;
 }
+.row.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.row.gallery .col-md-4 {
+  flex: 0 1 calc(33% - 20px);
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
 
 
 
