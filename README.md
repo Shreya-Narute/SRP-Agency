@@ -40,6 +40,13 @@
       padding: 8px;
       border: 1px solid #ccc;
     }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
@@ -49,6 +56,7 @@
       <li class="nav-item"><a class="nav-link" href="#about">आमच्याबद्दल</a></li>
       <li class="nav-item"><a class="nav-link" href="#services">सेवा</a></li>
       <li class="nav-item"><a class="nav-link" href="#gallery">गॅलरी</a></li>
+      <li class="nav-item"><a class="nav-link" href="#partners">भागीदार</a></li>
       <li class="nav-item"><a class="nav-link" href="#seeds">बीज वितरण</a></li>
     </ul>
   </nav>
@@ -78,6 +86,30 @@
       <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?farmer" alt="Farm"></div>
       <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?market" alt="Market"></div>
       <div class="col-md-4"><img src="https://source.unsplash.com/400x300/?truck" alt="Transport"></div>
+    </div>
+  </section>
+
+  <section id="partners" class="container">
+    <h2>भागीदार माहिती</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <h5>श्री. गजानन नरुटे</h5>
+          <p>संस्थापक व प्रमुख भागीदार</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <h5>श्री. रामदास पाटील</h5>
+          <p>भागीदार - शेतकरी संबंध</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <h5>श्री. वसंत गायकवाड</h5>
+          <p>भागीदार - वाहतूक व विक्री</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -137,7 +169,6 @@
       .catch(err => alert("डेटा सबमिट करताना त्रुटी आली!"));
     });
 
-    // Sheet data display
     fetch("https://opensheet.elk.sh/1eNBlxdGZxX4ViZBGCplrXFYDNdETEp7ZgYBaNFjTzo8/Sheet1")
       .then(res => res.json())
       .then(data => {
