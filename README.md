@@ -137,11 +137,15 @@ h1 {
     </ul>
   </nav>
 
-  <header>
-   <h1>SRP Agency Andori</h1>
-<p>आपल्या शेतकऱ्यांचा विश्वास आणि गुणवत्ता</p>
+ <header style="background: url('https://source.unsplash.com/1200x300/?farm,market') no-repeat center center/cover; height: 320px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); text-align: center;">
+  <h1 style="font-size: 3.2rem; font-family: 'Raleway', sans-serif; background-color: rgba(0,0,0,0.4); padding: 12px 24px; border-radius: 10px; color: #fff;">
+    SRP Agency Andori
+  </h1>
+  <p style="font-size: 1.3rem; margin-top: 12px; background-color: rgba(255,255,255,0.2); padding: 10px 18px; border-radius: 8px; font-weight: 500;">
+    आपल्या शेतकऱ्यांचा विश्वास आणि गुणवत्ता
+  </p>
+</header>
 
-  </header>
 
  <section id="about" class="container">
   <h2>आमच्याबद्दल</h2>
